@@ -12,4 +12,5 @@ body {
 button,
 input {
   outline: none;
+  background: red;
 }
