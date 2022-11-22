@@ -29,6 +29,6 @@
 ### clone o repositório
 
 
-git clone: `https://github.com/maike-k/TodoList_React_tsx` <br>
+git clone: `https://github.com/maike-k/todoList.tsx` <br>
 
 
