@@ -1,0 +1,127 @@
+.null {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.null h1 {
+  margin-top: 1rem;
+  font-style: bold;
+  font-size: 1rem;
+  color: #808080;
+}
+
+.null p {
+  margin-top: 0;
+  font-style: regular;
+  font-size: 1rem;
+  color: #808080;
+}
+
+.clipboardText {
+  color: #808080;
+}
+
+.container {
+  margin: auto;
+  max-width: 90rem;
+  margin-top: -30px;
+}
+
+.taskForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 46rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.taskForm input {
+  width: 100%;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid rgb(1, 25, 25);
+  padding: 10px;
+  background: #454545;
+  margin-top: -30px;
+  font-size: 18px;
+  color: #f2f2f2;
+}
+
+.taskForm input::placeholder {
+  color: #808080;
+  font-size: 1rem;
+}
+
+.taskForm button[type='submit'] {
+  width: 5.62rem;
+  height: 3.25rem;
+  margin-left: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #1e6f9f;
+  color: #fff;
+  border: 0;
+  margin-top: -30px;
+  font-size: 16px;
+  transition: background-color 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.taskForm button[type='submit']:not(:disabled):hover {
+  background: #4ea8de;
+}
+
+.taskForm button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.taskFormList {
+  max-width: 43rem;
+  margin: auto;
+  margin-top: 64px;
+  padding: 0.5rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.created {
+  font-size: 1.14rem;
+  color: #4ea8de;
+  line-height: 17px;
+  font-style: bold;
+}
+
+.published {
+  font-size: 1.14rem;
+  color: #8284fa;
+  line-height: 17px;
+  font-style: bold;
+}
+
+.button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button button {
+  width: 2.85rem;
+  height: 1.6rem;
+  margin-left: 10px;
+  border-radius: 8px;
+  background: #262626;
+  color: #fff;
+  border: none;
+}

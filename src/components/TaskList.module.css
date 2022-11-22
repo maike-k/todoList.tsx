@@ -1,0 +1,81 @@
+.container {
+  max-width: 44rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.content {
+  background: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  margin-top: 25px;
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 5px;
+}
+
+.content .active,
+.trash,
+.check {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.content .trash {
+  color: #808080;
+}
+
+.content .trash:hover {
+  color: #ed5858;
+}
+
+.content .check {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #4ea8de;
+}
+
+.content .check:hover {
+  opacity: 90%;
+  border: 0;
+  color: #1e6f9f;
+}
+
+.active {
+  display: flex;
+  justify-content: space-around;
+  background: #262626;
+  color: #808080;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 5px;
+  text-decoration-line: line-through;
+}
+
+.active .trash {
+  color: #808080;
+}
+
+.active .check {
+  color: #1e6f9f;
+}
+
+.active .trash:hover {
+  background: #333333;
+  border-radius: 4px;
+  color: #ed5858;
+  width: 24px;
+  height: 24px;
+}
