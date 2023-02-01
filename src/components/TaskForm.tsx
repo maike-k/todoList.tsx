@@ -38,8 +38,7 @@ const TaskForm = () => {
     setCountTaskFinished(countTaskFinished - 1)
   }
 
-  const taskEmpty = task.length === 0
-
+  const taskEmpty = task.trim() === ''
   return (
     <div className={styles.container}>
       <form onSubmit={handleTask} className={styles.taskForm}>
